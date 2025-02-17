@@ -15,7 +15,7 @@ The designs were created to the following widths:
 
 - Slate 300: hsl(212, 45%, 89%)
 - Slate 500: hsl(216, 15%, 48%)
-- Slate 900: hsl(218, 44%, 22%)
+- Slate 900: hsl(217, 42.70%, 66.50%)
 
 ## Typography
 
