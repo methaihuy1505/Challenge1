@@ -1,10 +1,12 @@
 div{
+    
     background-color: white;
     border-radius:10px;
     width: 250px;
     display: flex;
     flex-direction: column;
     margin: auto;
+    margin-top: 100px;
     text-align: center;
     align-items: center;
     font-size: 15px;
