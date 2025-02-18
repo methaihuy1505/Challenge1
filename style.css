@@ -17,6 +17,31 @@ body{
 img{
     width: 200px;;
 }
-@media screen and (min-width:1440px){
-    
+.nav-bar{
+    background: #333;
+    color: white;
+    padding: 10px;
+}
+.nav-bar label {
+    font-size: 24px;
+    cursor: pointer;
+    display: block;
+}
+.custom {
+    list-style: none;
+    padding: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    background: #444;
+}
+.custom li {
+    padding: 10px;
+    border-bottom: 1px solid #555;
+}
+#toggle-menu:checked ~ .custom {
+    max-height: 200px;
+}
+#toggle-menu {
+    display: none;
 }
